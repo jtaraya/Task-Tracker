@@ -7,6 +7,22 @@ const AddTask = ({ onAdd }) => {
 
     const onSubmit= (e) => {
         e.preventDefault()
+        //preventDefault so it doesn't submit to a page
+
+        //validation to the text task
+        if( !text) {
+            alert('Please add a task')
+            return
+        }
+
+        onAdd({ text, day, reminder})
+
+        //clear the form
+
+        setText('')
+        setDay('')
+        setReminder(false)
+
     }
 
   return (
