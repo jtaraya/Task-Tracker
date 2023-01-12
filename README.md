@@ -1,3 +1,9 @@
+# TASK TRACKER APP
+
+A task tracker app that helps users to keep track of their tasks and to-do lists. These app typically allow users to create and organize tasks, set deadlines and reminders, and track progress.
+
+#### {Task Tracker App by Jacob Taraya}
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
