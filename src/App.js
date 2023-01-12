@@ -8,21 +8,21 @@ const App = () => {
   const [tasks, setTasks] = useState( [
     {
         id: 1,
-        text: 'Doctors Appointment',
-        day: 'Feb 5th at 2:30pm',
+        text: 'Gym Schedule',
+        day: '14th Jan 2023 at 5:00am',
         reminder: true
     },
     {
         id: 2,
-        text: 'Meeting at School',
-        day: 'Feb 6th at 1:30pm',
+        text: 'StandUp Meeting',
+        day: '16th Jan 2023 at 8:00am',
         reminder: true
     },
     {
         id: 3,
-        text: 'Food Shopping',
-        day: 'Feb 5th at 2:30pm',
-        reminder: false
+        text: 'Birthday Party',
+        day: '17th Jan 2023 at 8:00am',
+        reminder: true
     },
 ])
 
